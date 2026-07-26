@@ -1,5 +1,57 @@
 {
   "title": "STEINS;GATE: Hiyoku Renri no Darling",
   "vndb_id": "v6618",
-  "routes": []
+  "routes": [
+    {
+      "id": "moeka",
+      "title": "萌郁ルート（失楽のメランコリア）",
+      "stepCount": 26,
+      "portrait": "https://t.vndb.org/ch/38/28038.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://dqff.sakura.ne.jp/14/",
+      "title": "STEINS;GATE 比翼恋理のだーりん - PSP 攻略 組長式",
+      "language": "ja",
+      "notes": "PRIMARY, COMPLETE. Full page-by-page walkthrough: page 1 = common route (excl. Mayuri), page 2 = Moeka, page 3 = Faris, page 4 = Ruka, page 5 = Suzuha, page 6 = Kurisu, page 7 = Mayuri. Each page contains exact save points, verbatim dialogue/D-mail choices by date, mail-collection detours, and explicit 'next route' navigation links confirming the recommended play order (Moeka→Faris→Ruka→Suzuha→Kurisu→Mayuri). This is the primary source for save numbering and choice text."
+    },
+    {
+      "url": "https://h1g.jp/steinsgate_darling/",
+      "title": "STEINS;GATE（シュタインズ・ゲート）比翼恋理のだーりん 攻略Wiki：ヘイグ",
+      "language": "ja",
+      "notes": "SECONDARY, COMPLETE. 58+ page community wiki with a dedicated page per route (プロローグ, 萌郁ルート, フェイリスルート, るかルート, 鈴羽ルート, まゆりルート, 紅莉栖ルート) plus 全メール回収, トロフィー, 実績, クリア特典. Site blocks direct fetch (HTTP 403) but is readable via a text-extraction proxy (r.jina.ai). Verified against dqff for the Moeka and Mayuri routes — chapter titles, save-point structure, and choice text are consistent between the two sources with no contradictions found. Used as the cross-validation source for every save/choice/bad-end before inclusion in the final guide."
+    },
+    {
+      "url": "https://gameline.jp/steinsgate-darling/kouryaku/",
+      "title": "【シュタインズゲート 比翼恋理のだーりん】攻略チャート - ゲームライン",
+      "language": "ja",
+      "notes": "Supplementary, largely complete. Has separate chart pages for 共通ルート(まゆり以外) (chart-1) and 共通ルート(まゆり用) (chart-2), giving the exact verbatim D-mail choice text for all five branch options at the common-route save point ('新ガジェットの開発は中止だ' / '12号機の開発は中止だ' / '12号機は危険だ絶対はめるな' / 'Dメール実験もっとよく考えろ' / no send). Used to cross-check the branch-trigger text against dqff and h1g.jp."
+    },
+    {
+      "url": "https://dragon737.com/darling-in-the-rain",
+      "title": "【比翼連理のダーリン 攻略】全ルート分岐・Dメール条件・ヒロイン別エンディング完全ガイド",
+      "language": "ja",
+      "notes": "Supplementary overview source. Confirms the D-mail branching mechanism, Mayuri prerequisite (avoid other heroines' flags), and the recommended order of saving Mayuri for last. Not used for verbatim choice text (summarized, not quoted)."
+    },
+    {
+      "url": "https://sjgamesukisuki.com/steinsgate-darin-end/",
+      "title": "シュタゲだーりん攻略！各キャラエンディング一覧 | ゲイマー",
+      "language": "ja",
+      "notes": "Supplementary. Confirms the six route subtitle names (失楽のメランコリア / 猫耳乙女のドメイン / 倒錯のアニマ / 迷走螺旋のアルケー / 華氏93度のキアロスクーロ / 哀哭悲嘆のアポリア) and states no single true ending exists — consistent with the other sources."
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/STEINS;GATE_比翼恋理のだーりん",
+      "title": "STEINS;GATE 比翼恋理のだーりん - Wikipedia",
+      "language": "ja",
+      "notes": "Supplementary background only. Confirms the D-mail branching mechanism at a high level and that not sending D-mail leads to the Kurisu route."
+    },
+    {
+      "url": "https://vndb.org/v6618",
+      "title": "VNDB entry for STEINS;GATE: Hiyoku Renri no Darling",
+      "language": "en",
+      "notes": "Used only for release/platform confirmation (Steam/Switch/PS4, Dec 10, 2019 = newest release) and character roster, not for route/choice content."
+    }
+  ],
+  "generated_at": "2026-07-26T14:15:46.795385+00:00"
 }
