@@ -408,7 +408,8 @@
     "simpleJp": "逃げる",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "逃げる",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "【風ノ章】BADエンド（スタッフロールあり）"
   },
   {
     "simpleJp": "セーブ55にロード",

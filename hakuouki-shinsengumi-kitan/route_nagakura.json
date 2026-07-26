@@ -156,7 +156,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ67",
+    "simpleJp": "セーブ69",
     "jpGuide1": "★SAVE1",
     "jpGuide2": "Save1",
     "enGuide": ""
@@ -271,7 +271,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ68",
+    "simpleJp": "セーブ70",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save5",
     "enGuide": ""
@@ -284,7 +284,7 @@
     "badEndPath": "悲恋エンド"
   },
   {
-    "simpleJp": "セーブ68にロード",
+    "simpleJp": "セーブ70にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save5より",
     "enGuide": "",
@@ -298,7 +298,7 @@
     "badEndPath": "ゲームオーバー"
   },
   {
-    "simpleJp": "セーブ67にロード",
+    "simpleJp": "セーブ69にロード",
     "jpGuide1": "★SAVE1から始めた場合",
     "jpGuide2": "Save1より",
     "enGuide": "",
@@ -365,7 +365,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ69",
+    "simpleJp": "セーブ71",
     "jpGuide1": "★SAVE2",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": ""
@@ -426,7 +426,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ69にロード",
+    "simpleJp": "セーブ71にロード",
     "jpGuide1": "★SAVE2から始めた場合",
     "jpGuide2": "（第二ガイドに記載なし）",
     "enGuide": "",
@@ -435,7 +435,7 @@
   {
     "simpleJp": "無茶はしないでください",
     "jpGuide1": "無茶はしないでください（好感度UP✨）",
-    "jpGuide2": "無茶はしないでください",
+    "jpGuide2": "無茀はしないでください",
     "enGuide": ""
   },
   {
@@ -493,7 +493,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ70",
+    "simpleJp": "セーブ72",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save2",
     "enGuide": ""
@@ -512,7 +512,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ70にロード",
+    "simpleJp": "セーブ72にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save2より",
     "enGuide": "",
@@ -537,7 +537,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ71",
+    "simpleJp": "セーブ73",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save3",
     "enGuide": ""
@@ -550,7 +550,7 @@
     "badEndPath": "ゲームオーバー"
   },
   {
-    "simpleJp": "セーブ71にロード",
+    "simpleJp": "セーブ73にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save3より",
     "enGuide": "",
@@ -558,7 +558,7 @@
   },
   {
     "simpleJp": "薬を与える",
-    "jpGuide1": "（第一ガイドに記載なし）",
+    "jpGuide1": "近藤さんの話題",
     "jpGuide2": "薬を与える",
     "enGuide": "",
     "badEndPath": "悲恋エンド"
@@ -576,26 +576,26 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ72",
+    "simpleJp": "セーブ74",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save6",
     "enGuide": ""
   },
   {
     "simpleJp": "我慢させる",
-    "jpGuide1": "我慢させる",
+    "jpGuide1": "我慢させる　→　BADエンド（スタッフロールなし②）",
     "jpGuide2": "我慢させる",
     "enGuide": "",
     "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "駄目です",
-    "jpGuide1": "駄目です　→　BADエンド（スタッフロールなし②）",
+    "jpGuide1": "駄目です",
     "jpGuide2": "駄目です　→　ゲームオーバー",
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ72にロード",
+    "simpleJp": "セーブ74にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save6より",
     "enGuide": "",
@@ -605,45 +605,8 @@
     "simpleJp": "血を与える",
     "jpGuide1": "血を与える　（我慢させるにもCGあり）",
     "jpGuide2": "血を与える",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "駄目です",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "駄目です",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "私は信じていますから",
-    "jpGuide1": "私は信じていますから",
-    "jpGuide2": "私は信じていますから",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "我慢させる",
-    "jpGuide1": "我慢させる",
-    "jpGuide2": "我慢させる",
     "enGuide": "",
-    "badEndPath": "ゲームオーバー"
-  },
-  {
-    "simpleJp": "お任せします",
-    "jpGuide1": "お任せします　→　BADエンド（スタッフロールなし①）",
-    "jpGuide2": "お任せします　→　ゲームオーバー",
-    "enGuide": ""
-  },
-  {
-    "simpleJp": "セーブ72にロード",
-    "jpGuide1": "（第一ガイドに記載なし）",
-    "jpGuide2": "Save6より",
-    "enGuide": "",
-    "isLoad": true
-  },
-  {
-    "simpleJp": "血を与える",
-    "jpGuide1": "血を与える　（我慢させるにもCGあり）",
-    "jpGuide2": "血を与える",
-    "enGuide": ""
+    "badEndPath": "悲恋エンド"
   },
   {
     "simpleJp": "駄目です",
@@ -667,11 +630,10 @@
     "simpleJp": "お任せします",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "お任せします　→　悲恋エンド",
-    "enGuide": "",
-    "badEndPath": "悲恋エンド"
+    "enGuide": ""
   },
   {
-    "simpleJp": "セーブ71にロード",
+    "simpleJp": "セーブ73にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save3より",
     "enGuide": "",
@@ -696,7 +658,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ73",
+    "simpleJp": "セーブ75",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save4",
     "enGuide": ""
@@ -733,7 +695,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブ73にロード",
+    "simpleJp": "セーブ75にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "Save4より",
     "enGuide": "",
