@@ -1,5 +1,57 @@
 {
   "title": "STEINS;GATE",
   "vndb_id": "v2002",
-  "routes": []
+  "routes": [
+    {
+      "id": "suzuha",
+      "title": "鈴羽END",
+      "stepCount": 50,
+      "portrait": "https://t.vndb.org/ch/36/97236.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.h1g.jp/steinsgate/?%E7%B0%A1%E6%98%93%E6%94%BB%E7%95%A5%E3%83%81%E3%83%A3%E3%83%BC%E3%83%88",
+      "title": "簡易攻略チャート - STEINS;GATE(シュタインズゲート) 攻略Wiki ： ヘイグ",
+      "language": "ja",
+      "notes": "Complete route-branch chart covering the entire game: exact save-point placement (セーブ1-7, セーブA, セーブB), the exact choice/D-mail decision that causes each of the 5 sub-endings to branch off, and the separate 'true end route' (真エンド到達ルート) that must be taken from Save 1 to reach Kurisu END and True End. States explicitly '左側が通常ルート、右側が真エンディングへ進むための特殊エンディング用ルート' and recommends seeing Suzuha/Faris/Ruka/Mayuri first, then reloading Save 1 for Kurisu/True. Primary source for route structure and save numbering."
+    },
+    {
+      "url": "https://www.h1g.jp/steinsgate/?Chapter1%20%E6%99%82%E9%96%93%E8%B7%B3%E8%BA%8D%E3%81%AE%E3%83%91%E3%83%A9%E3%83%8E%E3%82%A4%E3%82%A2",
+      "title": "Chapter1 時間跳躍のパラノイア - STEINS;GATE 攻略Wiki ： ヘイグ (and its Chapter2-10 sibling pages linked from the same wiki, e.g. ?Chapter6, ?Chapter7, ?Chapter10 透明のスターダスト, ?Chapter10 因果律のメルト)",
+      "language": "ja",
+      "notes": "Per-chapter pages give the exact verbatim phone-trigger choices (まゆりメール, フェイリスメール, ルカ子メール, 紅莉栖メール, 鈴羽メール subject lines and the exact reply text chosen) for the common route and each chapter, plus which achievements they unlock. This is the primary source that will supply jpGuide1-level verbatim choice text when writing the full route files. Site is a PukiWiki fan wiki for the original Xbox 360/PC release (発売日：2009年10月15日), community-maintained and still updated in 2026."
+    },
+    {
+      "url": "https://www.h1g.jp/steinsgate/?%E5%AE%9F%E7%B8%BE",
+      "title": "実績 - STEINS;GATE 攻略Wiki ： ヘイグ",
+      "language": "ja",
+      "notes": "Full achievement/trophy list. Confirms there are exactly 6 ending-related achievements (天才少女のメランコリィ is a relationship achievement, not an ending) — 因果律のメルト(Kurisu), 透明のスターダスト(Mayuri), 不可逆のリブート(Suzuha), 背徳と再生のリンク(Ruka), 分離喪失のジャメヴュ(Faris), and 境界面上のシュタインズゲート(True End) — plus 全ての世界線のコンプリート for seeing all of them. Used to confirm this title has NO traditional bad-end/game-over screens distinct from these 6 main endings; every branch choice leads to one of the 6, not a fail state."
+    },
+    {
+      "url": "https://gameline.jp/steinsgate/kouryaku/",
+      "title": "【シュタインズゲート】攻略チャート - ゲームライン",
+      "language": "ja",
+      "notes": "Second complete Japanese walkthrough site with dedicated pages for 共通ルート Chapter1-5 and root-suzuha/root-faris/root-ruka/root-mayuri/root-kurisu/root-true individual ending pages. States the recommended order directly: '鈴羽→フェイリス→るか→まゆり→紅莉栖→トゥルーエンドの順に攻略'. Content on each ending page is more condensed than h1g.jp (mainly save-reload + D-mail send/don't-send decisions rather than every phone-trigger email), so it is used primarily to cross-validate save points and the branch order rather than as the main verbatim-choice source. Confirms, e.g., that Mayuri END is reached via セーブ5 reload + send D-mail + auto-progress through Chapter 9 to Chapter 10, matching h1g.jp's chart."
+    },
+    {
+      "url": "https://www.my-game.jp/steins-gate-endings-guide-walkthrough/",
+      "title": "シュタインズゲート攻略｜全6エンドの条件と分岐チャートを徹底解説",
+      "language": "ja",
+      "notes": "Third Japanese guide, found via search snippet, independently confirms the same 6-ending structure (True, Kurisu, Mayuri, Suzuha, Faris, Ruka) and the same recommended order 'Suzuha → Faris → Ruka → Mayuri → Kurisu → True Ending', plus that phone-trigger email replies (especially Kurisu's, from Chapter 4 onward) are what drive branching. Used only as corroboration; not deep-fetched for verbatim choice text since h1g.jp and gameline.jp already supply that."
+    },
+    {
+      "url": "https://psnprofiles.com/guide/2966-steinsgate-trophy-guide",
+      "title": "Steins;Gate Trophy Guide (PSNProfiles)",
+      "language": "en",
+      "notes": "Supplementary English-language source only, used to sanity-check route structure in English, not as a primary source per the guide philosophy. Confirms: a 'Shared Route' gives Suzuha END, Faris END, Luka END and Mayuri END, and a separate 'True Ending Route' (reload and raise Kurisu's affinity instead) gives Kurisu END and True Ending, with the True Ending trophy unlocking after replying to Kurisu's 'Where are you now?' email with your location post-credits-check. Matches the Japanese sources exactly."
+    },
+    {
+      "url": "https://vndb.org/v2002",
+      "title": "STEINS;GATE - VNDB entry v2002",
+      "language": "en",
+      "notes": "Reference only. Confirms v2002 is the original STEINS;GATE (first released Xbox 360, 2009-10-15; PC 2010; later ported to PS3/Vita, Steam 2017-09-11, Switch 2019, iOS/Android 2022). All of these ports share the same story/route content (no routes added between ports) per the walkthrough sites, which reference the wiki content as still valid for the current Steam/Switch/mobile releases. A separate upcoming 'STEINS;GATE RE:BOOT' full remake is scheduled to launch 2026-08-19 through 2026-10-29 across Steam/PS5/Xbox Series/Switch — this is NOT yet released as of the research date (2026-07-26), so it was not targeted; STEINS;GATE ELITE (anime-cutscene version) and STEINS;GATE 0 (sequel) are separate VNDB entries and out of scope for v2002."
+    }
+  ],
+  "generated_at": "2026-07-26T15:17:13.383409+00:00"
 }
