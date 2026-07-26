@@ -25,8 +25,6 @@
   {"simpleJp": "自分でする", "jpGuide1": "自分でする（好感度UP✨）", "jpGuide2": "自分でする", "enGuide": ""},
   {"simpleJp": "沖田さんが心配", "jpGuide1": "沖田さんが心配", "jpGuide2": "沖田さんが心配", "enGuide": ""},
   {"simpleJp": "先回りする", "jpGuide1": "先回りする", "jpGuide2": "先回りする", "enGuide": ""},
-
-  {"simpleJp": "セーブ84", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "Save1", "enGuide": ""},
   {"simpleJp": "そっとしておく", "jpGuide1": "そっとしておく（好感度UP✨）", "jpGuide2": "そっとしておく", "enGuide": ""},
   {"simpleJp": "羅刹のこと", "jpGuide1": "羅刹のこと", "jpGuide2": "羅刹のこと", "enGuide": ""},
   {"simpleJp": "気がつきませんでした", "jpGuide1": "気がつきませんでした（好感度UP✨）", "jpGuide2": "気がつきませんでした", "enGuide": ""},
@@ -46,10 +44,13 @@
   {"simpleJp": "土方さんに確認する", "jpGuide1": "土方さんに確認する", "jpGuide2": "土方さんに確認する", "enGuide": ""},
   {"simpleJp": "これからもお願いします", "jpGuide1": "これからもお願いします（好感度UP✨）", "jpGuide2": "これからもお願いします", "enGuide": ""},
 
-  {"simpleJp": "セーブ85", "jpGuide1": "※行軍録の「風ノ章 第五章・山崎烝篇」から始める／※設定は「好感度：低」", "jpGuide2": "（第二ガイドに記載なし）", "enGuide": ""},
-  {"simpleJp": "役に立ちたいから", "jpGuide1": "役に立ちたいから", "jpGuide2": "役に立ちたいから", "enGuide": "", "badEndPath": "【風ノ章】BADエンド（スタッフロールあり）"},
-  {"simpleJp": "山崎さんも戦っています", "jpGuide1": "山崎さんも戦っています", "jpGuide2": "山崎さんも戦っています　→　ゲームオーバー", "enGuide": ""},
-  {"simpleJp": "セーブ85にロード", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "（第二ガイドに記載なし）", "enGuide": "", "isLoad": true},
+  {"simpleJp": "セーブ84", "jpGuide1": "※行軍録の「風ノ章 第五章・山崎烝篇」から始める／※設定は「好感度：低」", "jpGuide2": "（第二ガイドに記載なし）", "enGuide": ""},
+  {"simpleJp": "役に立ちたいから", "jpGuide1": "役に立ちたいから", "jpGuide2": "役に立ちたいから", "enGuide": "", "badEndPath": "悲恋エンド"},
+  {"simpleJp": "セーブ85", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "Save5", "enGuide": ""},
+  {"simpleJp": "気持ちは分かります", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "気持ちは分かります", "enGuide": ""},
+  {"simpleJp": "セーブ85にロード", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "Save5より", "enGuide": "", "isLoad": true},
+  {"simpleJp": "山崎さんも戦っています", "jpGuide1": "山崎さんも戦っています", "jpGuide2": "山崎さんも戦っています　→　ゲームオーバー", "enGuide": "", "badEndPath": "【風ノ章】BADエンド（スタッフロールあり）"},
+  {"simpleJp": "セーブ84にロード", "jpGuide1": "（第一ガイドに記載なし）", "jpGuide2": "（第二ガイドに記載なし）", "enGuide": "", "isLoad": true},
   {"simpleJp": "離れるのが怖いから", "jpGuide1": "離れるのが怖いから（好感度UP✨）", "jpGuide2": "離れるのが怖いから", "enGuide": ""},
   {"simpleJp": "気持ちは分かります", "jpGuide1": "気持ちは分かります（好感度UP✨）", "jpGuide2": "気持ちは分かります", "enGuide": ""},
 
