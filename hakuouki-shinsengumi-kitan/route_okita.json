@@ -147,7 +147,8 @@
     "simpleJp": "湯冷めしてませんか？",
     "jpGuide1": "湯冷めしてませんか？",
     "jpGuide2": "湯冷めしてませんか？",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "BADエンド（スタッフロールなし）"
   },
   {
     "simpleJp": "隊士のこと",
@@ -228,11 +229,10 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "沖田さんが心配ですから",
+    "simpleJp": "止めても無駄ですから",
     "jpGuide1": "止めても無駄ですから　→　BADエンド（スタッフロールなし）",
-    "jpGuide2": "沖田さんが心配ですから　→　悲恋エンド",
-    "enGuide": "",
-    "badEndPath": "悲恋エンド"
+    "jpGuide2": "止めても無駄ですから　→　BADエンド（スタッフロールなし）",
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ14にロード",
@@ -317,7 +317,8 @@
     "simpleJp": "羅刹隊を止める",
     "jpGuide1": "羅刹隊を止める",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "BADエンド（スタッフロールあり）"
   },
   {
     "simpleJp": "どうして……？",
@@ -341,8 +342,7 @@
     "simpleJp": "止めても無駄ですから",
     "jpGuide1": "止めても無駄ですから　→　BADエンド（スタッフロールあり）",
     "jpGuide2": "（第二ガイドに記載なし）",
-    "enGuide": "",
-    "badEndPath": "BADエンド（スタッフロールあり）"
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ15にロード",
@@ -391,7 +391,8 @@
     "simpleJp": "我慢させる",
     "jpGuide1": "我慢させる",
     "jpGuide2": "我慢させる",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "沖田さんの気持ちもわかる",
@@ -403,8 +404,7 @@
     "simpleJp": "別人みたいですね",
     "jpGuide1": "不思議な感じです（好感度UP✨）",
     "jpGuide2": "別人みたいですね　→　ゲームオーバー",
-    "enGuide": "",
-    "badEndPath": "ゲームオーバー"
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ16にロード",
@@ -447,7 +447,8 @@
     "simpleJp": "我慢させる",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "我慢させる",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "ゲームオーバー"
   },
   {
     "simpleJp": "行ってほしくありません",
@@ -459,8 +460,7 @@
     "simpleJp": "…………",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "…………　→　ゲームオーバー",
-    "enGuide": "",
-    "badEndPath": "ゲームオーバー"
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ17にロード",
@@ -517,14 +517,14 @@
     "simpleJp": "血を与える",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "血を与える",
-    "enGuide": ""
+    "enGuide": "",
+    "badEndPath": "悲恋エンド"
   },
   {
     "simpleJp": "血を与える",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "血を与える　→　悲恋エンド",
-    "enGuide": "",
-    "badEndPath": "悲恋エンド"
+    "enGuide": ""
   },
   {
     "simpleJp": "セーブ18にロード",
