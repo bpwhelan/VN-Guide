@@ -57,7 +57,7 @@
   },
   "v2002": {
     "slug": "steinsgate",
-    "has_guide": false,
+    "has_guide": true,
     "title": "STEINS;GATE",
     "alttitle": "",
     "cover_url": "https://t.vndb.org/cv/19/77819.jpg",
