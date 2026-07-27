@@ -6,6 +6,11 @@
       "id": "joukan",
       "title": "上巻",
       "stepCount": 121
+    },
+    {
+      "id": "yami_no_ou",
+      "title": "闇の王編",
+      "stepCount": 146
     }
   ],
   "sources": [
@@ -46,5 +51,5 @@
       "notes": "Same as above, for Gekan. Review-level context only, not a walkthrough source."
     }
   ],
-  "generated_at": "2026-07-27T12:50:17.858269+00:00"
+  "generated_at": "2026-07-27T12:53:32.534397+00:00"
 }
