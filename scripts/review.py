@@ -73,8 +73,12 @@ def run_claude_fresh(prompt: str, timeout: int = TIMEOUT_REVIEW) -> bool:
         return False
 
 
-def get_open_issue_for_route(slug: str, route_id: str) -> int | None:
-    """Return issue number if an open route-accuracy issue exists for this route."""
+def get_open_issue_for_route(slug: str, route_id: str, route_title: str = "") -> int | None:
+    """Return issue number if an open route-accuracy issue exists for this route.
+
+    Matches on route_id OR route_title because the reviewer uses the display title
+    (e.g. '沖田総司ルート') in the issue title, not the internal id ('okita').
+    """
     result = subprocess.run(
         ["gh", "issue", "list",
          "--label", "route-accuracy",
@@ -91,7 +95,8 @@ def get_open_issue_for_route(slug: str, route_id: str) -> int | None:
     except json.JSONDecodeError:
         return None
     for issue in issues:
-        if route_id in issue.get("title", "").lower():
+        title = issue.get("title", "").lower()
+        if route_id in title or (route_title and route_title.lower() in title):
             return issue["number"]
     return None
 
@@ -112,7 +117,7 @@ def review_route(slug: str, route_id: str, route_title: str) -> bool:
     for round_num in range(1, MAX_REVIEW_ROUNDS + 1):
         log(f"Route {route_id}: round {round_num}/{MAX_REVIEW_ROUNDS}")
 
-        existing_issue = get_open_issue_for_route(slug, route_id)
+        existing_issue = get_open_issue_for_route(slug, route_id, route_title)
 
         if existing_issue is None:
             # No open issue — run fresh reviewer for this route
@@ -133,7 +138,7 @@ def review_route(slug: str, route_id: str, route_title: str) -> bool:
                 err(f"Reviewer failed for {slug}/{route_id} round {round_num} — will retry next cycle")
                 return False
 
-            existing_issue = get_open_issue_for_route(slug, route_id)
+            existing_issue = get_open_issue_for_route(slug, route_id, route_title)
             if existing_issue is None:
                 log(f"Route {route_id}: reviewer found no issues — passed")
                 return True
@@ -176,7 +181,7 @@ def review_route(slug: str, route_id: str, route_title: str) -> bool:
             return False
 
         # Check if the issue was closed by the re-reviewer
-        still_open = get_open_issue_for_route(slug, route_id)
+        still_open = get_open_issue_for_route(slug, route_id, route_title)
         if still_open is None:
             log(f"Route {route_id}: issue closed by reviewer — passed")
             return True
