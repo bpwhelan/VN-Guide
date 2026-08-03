@@ -224,11 +224,13 @@ def run() -> None:
 
     games = json.loads(GAMES_JSON.read_text())
 
-    priority_vid = os.environ.get("GUIDE_PRIORITY_VID")
+    # GUIDE_REVIEW_VID scopes the review loop to one game (separate from GUIDE_PRIORITY_VID
+    # which controls the guide-gen exit gate in entrypoint.sh).
+    priority_vid = os.environ.get("GUIDE_REVIEW_VID")
     priority_route = os.environ.get("GUIDE_REVIEW_ROUTE")
 
     if priority_vid:
-        log(f"GUIDE_PRIORITY_VID={priority_vid}: scoping review to this game only")
+        log(f"GUIDE_REVIEW_VID={priority_vid}: scoping review to this game only")
     if priority_route:
         log(f"GUIDE_REVIEW_ROUTE={priority_route}: scoping review to this route only")
 
