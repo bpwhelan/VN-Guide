@@ -183,8 +183,10 @@ function renderSlide() {
     badEndEl.style.display = "none";
   }
 
+  const routeIdx = guideData.routes.findIndex(r => r.id === route.id);
+  const hasNextRoute = routeIdx >= 0 && routeIdx < guideData.routes.length - 1;
   document.getElementById("btn-prev").disabled = idx === 0;
-  document.getElementById("btn-next").disabled = idx === total - 1;
+  document.getElementById("btn-next").disabled = idx === total - 1 && !hasNextRoute;
 
   showView("view-slide");
 }
@@ -197,7 +199,12 @@ function nextStep() {
     state.progress[route.id] = idx + 1;
     saveState();
     renderSlide();
+    return;
   }
+
+  const routeIdx = guideData.routes.findIndex(r => r.id === route.id);
+  const nextRoute = guideData.routes[routeIdx + 1];
+  if (nextRoute) startRoute(nextRoute.id);
 }
 
 function prevStep() {

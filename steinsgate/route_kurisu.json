@@ -115,7 +115,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブA",
+    "simpleJp": "セーブ8",
     "jpGuide1": "セーブポイント【A】",
     "jpGuide2": "紅莉栖：メール「鍵が(ﾉД`)」を受け取ったら【セーブ6】",
     "enGuide": ""
@@ -139,7 +139,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブAにロード",
+    "simpleJp": "セーブ8にロード",
     "jpGuide1": "（第一ガイドに記載なし）",
     "jpGuide2": "【セーブ6】をロード",
     "enGuide": "",
@@ -170,7 +170,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブAにロード",
+    "simpleJp": "セーブ8にロード",
     "jpGuide1": "セーブポイント【A】をロードする",
     "jpGuide2": "【セーブ6】をロード",
     "enGuide": "",
@@ -249,7 +249,7 @@
     "enGuide": ""
   },
   {
-    "simpleJp": "セーブB",
+    "simpleJp": "セーブ9",
     "jpGuide1": "セーブポイント【B】",
     "jpGuide2": "紅莉栖：メール「今どこ？」を受け取ったら【セーブ7】",
     "enGuide": ""
